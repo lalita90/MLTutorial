@@ -1,5 +1,12 @@
 import sys
-import logging
+import sys
+import os
+
+# Add the parent directory of your project to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Now you can import modules from the 'src' folder
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
