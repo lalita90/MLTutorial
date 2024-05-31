@@ -31,6 +31,9 @@ setup(
         "pandas",
         "requests",
         "seaborn",
-        "matplotlib"
+        "matplotlib",
+        "scikit-learn",
+        "catboost",
+        "xgboost"
     ],
 )
