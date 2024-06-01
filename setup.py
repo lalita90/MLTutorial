@@ -34,6 +34,7 @@ setup(
         "matplotlib",
         "scikit-learn",
         "catboost",
-        "xgboost"
+        "xgboost",
+        "dill"
     ],
 )
